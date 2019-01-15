@@ -1,0 +1,46 @@
+body {
+  background-image: url(https://images.pexels.com/photos/573910/pexels-photo-573910.jpeg?auto=compress&cs=tinysrgb&h=650&w=940);
+  background-size: cover;
+}
+h1{
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
+  color: #00cc66;
+  font-size: 78px;
+  font-family:monospace;
+}
+h2{
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
+  color: #00cc66;
+  font-size: 28px;
+  font-family:cursive;
+  font-style: italic;
+}
+label{
+  color: red;
+  display: block;
+  font-size: 22px;
+}
+#bar{
+  text-align: center;
+}
+#booker{
+  text-align: center;
+}
+#button{
+  text-align: center;
+}
+#compute{
+
+}
+#board{
+  background-color: #464058;
+  margin-right: 500px;
+  margin-left: 600px;
+  border-radius: 35px;
+}
