@@ -2,29 +2,28 @@ body {
   background-image: url(https://images.pexels.com/photos/573910/pexels-photo-573910.jpeg?auto=compress&cs=tinysrgb&h=650&w=940);
   background-size: cover;
 }
-h1{
-  text-align: center;
-  justify-content: center;
-  flex-direction: column;
-  display: flex;
-  color: #00cc66;
-  font-size: 78px;
-  font-family:monospace;
-}
 h2{
   text-align: center;
   justify-content: center;
   flex-direction: column;
   display: flex;
-  color: #00cc66;
+  color: #00cc99;
   font-size: 28px;
   font-family:cursive;
   font-style: italic;
+  font-weight: bold;
 }
 label{
   color: red;
   display: block;
   font-size: 22px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+img{
+  width: 800px;
+  height: 200px;
+  padding-left: 50px;
 }
 #bar{
   text-align: center;
@@ -36,11 +35,30 @@ label{
   text-align: center;
 }
 #compute{
-
+width: 150px;
+height: 70px;
+color: white;
+background-color: #00cc66;
+border-radius: 15px;
+border-color: #00cc66;
+font-family: monospace;
+margin-top: 20px;
+font-size: 22px;
+font-weight: bold;
 }
 #board{
-  background-color: #464058;
-  margin-right: 500px;
-  margin-left: 600px;
+  background-color: #404040;
+  margin-right: 475px;
+  margin-left: 475px;
   border-radius: 35px;
+  opacity: 0.9;
+}
+#actors{
+  margin-top: 30px;
+  text-align: center;
+  color: white;
+  padding-bottom: 30px;
+  font-family: monospace;
+  font-size: 18px;
+  line-height: 30px;
 }
